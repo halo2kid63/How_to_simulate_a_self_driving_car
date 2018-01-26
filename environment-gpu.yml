@@ -1,4 +1,4 @@
-name: car-behavioral-cloning
+name: self-driving-car
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -20,5 +20,5 @@ dependencies:
     - imageio
     - pip:
         - moviepy
-        - tensorflow-gpu==1.1
+        - tensorflow-gpu==1.4
         - keras==1.2
