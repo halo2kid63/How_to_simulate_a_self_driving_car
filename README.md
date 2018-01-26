@@ -1,7 +1,5 @@
 # How_to_simulate_a_self_driving_car
-This is the code for "How to Simulate a Self-Driving Car" by Siraj Raval on Youtube
-
-# This video will be released on Wednesday, May 17th at 10 AM PST. This code is a work in progress.
+This is the code for "How to Simulate a Self-Driving Car" by Siraj Raval on [Youtube](https://youtu.be/EaY5QiZwSP4)
 
 ## Overview
 
@@ -29,7 +27,7 @@ Or you can manually install the required libraries (see the contents of the envi
 
 ### Run the pretrained model
 
-Start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim), choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
+Start up the Udacity self-driving simulator for [Linux](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983558_beta-simulator-linux/beta-simulator-linux.zip), [Mac] (https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983385_beta-simulator-mac/beta-simulator-mac.zip), or [Windows](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/58983318_beta-simulator-windows/beta-simulator-windows.zip); choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
 
 ```python
 python drive.py model.h5
