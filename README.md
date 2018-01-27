@@ -56,7 +56,11 @@ pip install numpy
 
 ### To train the model
 
-If you got the error about different dimension of input, change the dimension respectively with your data pictures' dimension base on the resolution you run for the train data.
+If you got the error about different dimension of input, change the dimension coresponding with your data pictures' dimension base on the resolution you run for the train data. Open utils.py file and change "IMAGE_HEIGHT, IMAGE_WIDTH":
+
+```Details
+IMAGE_HEIGHT, IMAGE_WIDTH, IMAGE_CHANNELS = 66, 200, 3
+```
 
 
 ## Credits
