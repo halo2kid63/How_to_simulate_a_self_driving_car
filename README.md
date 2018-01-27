@@ -42,6 +42,23 @@ python model.py
 
 This will generate a file `model-<epoch>.h5` whenever the performance in the epoch is better than the previous best.  For example, the first epoch will generate a file called `model-000.h5`.
 
+
+## Troubleshoot
+
+
+### Run the pretrained model
+
+If you got the error about import numpy, re-install the numpy:
+```command
+pip uninstall numpy
+pip install numpy
+```
+
+### To train the model
+
+If you got the error about different dimension of input, change the dimension respectively with your data pictures' dimension base on the resolution you run for the train data.
+
+
 ## Credits
 
 The credits for this code go to [naokishibuya](https://github.com/naokishibuya). I've merely created a wrapper to get people started.
